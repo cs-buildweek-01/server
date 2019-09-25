@@ -24,7 +24,9 @@ def draw_map(request):
                            'n_to': rooms[i].n_to,
                            's_to': rooms[i].s_to,
                            'e_to': rooms[i].e_to,
-                           'w_to': rooms[i].w_to})
+                           'w_to': rooms[i].w_to,
+                           'x': rooms[i].x,
+                           'y': rooms[i].y})
     return JsonResponse({'rooms': roomsArray}, safe=True)
 
 @csrf_exempt

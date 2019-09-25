@@ -4,344 +4,343 @@ from adventure.models import Player, Room
 
 Room.objects.all().delete()
 
-room1 = Room(title="Room1",
-             description="North of you, the cave mount beckons")
+room1 = Room(title="Room1", x=0, y= 11, description="North of you, the cave mount beckons")
 
-room2 = Room(title="Room2", description="""Dim light filters in from the south. Dusty
+room2 = Room(title="Room2", x=0, y= 10, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room3 = Room(title="Room3", description="""A steep cliff appears before you, falling
+room3 = Room(title="Room3", x=0, y= 9, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room4 = Room(title="Room4", description="""The narrow passage bends here from west
+room4 = Room(title="Room4", x=0, y= 8, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room5 = Room(title="Room5", description="""You've found the long-lost treasure
+room5 = Room(title="Room5", x=0, y= 7, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room6 = Room(title="Room6",
-             description="North of you, the cave mount beckons")
+             x=0, y= 6, description="North of you, the cave mount beckons")
 
-room7 = Room(title="Room7", description="""Dim light filters in from the south. Dusty
+room7 = Room(title="Room7", x=0, y=5, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room8 = Room(title="Room8", description="""A steep cliff appears before you, falling
+room8 = Room(title="Room8", x=0, y=4, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room9 = Room(title="Room9", description="""The narrow passage bends here from west
+room9 = Room(title="Room9", x=0, y=3, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room10 = Room(title="Room10", description="""You've found the long-lost treasure
+room10 = Room(title="Room10", x=0, y=2, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room11 = Room(title="Room11",
-             description="North of you, the cave mount beckons")
+             x=1, y=11, description="North of you, the cave mount beckons")
 
-room12 = Room(title="Room12", description="""Dim light filters in from the south. Dusty
+room12 = Room(title="Room12", x=1, y=10, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room13 = Room(title="Room13", description="""A steep cliff appears before you, falling
+room13 = Room(title="Room13", x=1, y=9, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room14 = Room(title="Room14", description="""The narrow passage bends here from west
+room14 = Room(title="Room14", x=1, y=8, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room15 = Room(title="Room15", description="""You've found the long-lost treasure
+room15 = Room(title="Room15", x=1, y=7, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room16 = Room(title="Room16",
-             description="North of you, the cave mount beckons")
+             x=1, y=6, description="North of you, the cave mount beckons")
 
-room17 = Room(title="Room17", description="""Dim light filters in from the south. Dusty
+room17 = Room(title="Room17", x=1, y=5, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room18 = Room(title="Room18", description="""A steep cliff appears before you, falling
+room18 = Room(title="Room18", x=1, y=4, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room19 = Room(title="Room19", description="""The narrow passage bends here from west
+room19 = Room(title="Room19", x=1, y=3, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room20 = Room(title="Room20", description="""You've found the long-lost treasure
+room20 = Room(title="Room20", x=1, y=2, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room21 = Room(title="Room21",
-             description="North of you, the cave mount beckons")
+             x=2, y=11, description="North of you, the cave mount beckons")
 
-room22 = Room(title="Room22", description="""Dim light filters in from the south. Dusty
+room22 = Room(title="Room22", x=2, y=10, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room23 = Room(title="Room23", description="""A steep cliff appears before you, falling
+room23 = Room(title="Room23", x=2, y=9, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room24 = Room(title="Room24", description="""The narrow passage bends here from west
+room24 = Room(title="Room24", x=2, y=8, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room25 = Room(title="Room25", description="""You've found the long-lost treasure
+room25 = Room(title="Room25", x=2, y=7, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room26 = Room(title="Room26",
-             description="North of you, the cave mount beckons")
+             x=2, y=6, description="North of you, the cave mount beckons")
 
-room27 = Room(title="Room27", description="""Dim light filters in from the south. Dusty
+room27 = Room(title="Room27", x=2, y=5, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room28 = Room(title="Room28", description="""A steep cliff appears before you, falling
+room28 = Room(title="Room28", x=2, y=4, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room29 = Room(title="Room29", description="""The narrow passage bends here from west
+room29 = Room(title="Room29", x=2, y=3, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room30 = Room(title="Room30", description="""You've found the long-lost treasure
+room30 = Room(title="Room30", x=2, y=2, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room31 = Room(title="Room31",
-             description="North of you, the cave mount beckons")
+             x=3, y=11, description="North of you, the cave mount beckons")
 
-room32 = Room(title="Room32", description="""Dim light filters in from the south. Dusty
+room32 = Room(title="Room32", x=3, y=10, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room33 = Room(title="Room33", description="""A steep cliff appears before you, falling
+room33 = Room(title="Room33", x=3, y=9, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room34 = Room(title="Room34", description="""The narrow passage bends here from west
+room34 = Room(title="Room34", x=3, y=8, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room35 = Room(title="Room35", description="""You've found the long-lost treasure
+room35 = Room(title="Room35", x=3, y=7, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room36 = Room(title="Room36",
-             description="North of you, the cave mount beckons")
+             x=3, y=6, description="North of you, the cave mount beckons")
 
-room37 = Room(title="Room37", description="""Dim light filters in from the south. Dusty
+room37 = Room(title="Room37", x=3, y=5, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room38 = Room(title="Room38", description="""A steep cliff appears before you, falling
+room38 = Room(title="Room38", x=3, y=4, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room39 = Room(title="Room39", description="""The narrow passage bends here from west
+room39 = Room(title="Room39", x=3, y=3, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room40 = Room(title="Room40", description="""You've found the long-lost treasure
+room40 = Room(title="Room40", x=3, y=2, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 
 room41 = Room(title="Room41",
-             description="North of you, the cave mount beckons")
+             x=4, y=11, description="North of you, the cave mount beckons")
 
-room42 = Room(title="Room42", description="""Dim light filters in from the south. Dusty
+room42 = Room(title="Room42", x=4, y=10, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room43 = Room(title="Room43", description="""A steep cliff appears before you, falling
+room43 = Room(title="Room43", x=4, y=9, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room44 = Room(title="Room44", description="""The narrow passage bends here from west
+room44 = Room(title="Room44", x=4, y=8, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room45 = Room(title="Room45", description="""You've found the long-lost treasure
+room45 = Room(title="Room45", x=4, y=7, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room46 = Room(title="Room46",
-             description="North of you, the cave mount beckons")
+             x=4, y=6, description="North of you, the cave mount beckons")
 
-room47 = Room(title="Room47", description="""Dim light filters in from the south. Dusty
+room47 = Room(title="Room47", x=4, y=5, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room48 = Room(title="Room48", description="""A steep cliff appears before you, falling
+room48 = Room(title="Room48", x=4, y=4, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room49 = Room(title="Room49", description="""The narrow passage bends here from west
+room49 = Room(title="Room49", x=4, y=3, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room50 = Room(title="Room50", description="""You've found the long-lost treasure
+room50 = Room(title="Room50", x=4, y=2, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room51 = Room(title="Room51",
-              description="North of you, the cave mount beckons")
+              x=5, y=11, description="North of you, the cave mount beckons")
 
-room52 = Room(title="Room52", description="""Dim light filters in from the south. Dusty
+room52 = Room(title="Room52", x=5, y=10, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room53 = Room(title="Room53", description="""A steep cliff appears before you, falling
+room53 = Room(title="Room53", x=5, y=9, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room54 = Room(title="Room54", description="""The narrow passage bends here from west
+room54 = Room(title="Room54", x=5, y=8, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room55 = Room(title="Room55", description="""You've found the long-lost treasure
+room55 = Room(title="Room55", x=5, y=7, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room56 = Room(title="Room56",
-              description="North of you, the cave mount beckons")
+              x=5, y=6, description="North of you, the cave mount beckons")
 
-room57 = Room(title="Room57", description="""Dim light filters in from the south. Dusty
+room57 = Room(title="Room57", x=5, y=5, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room58 = Room(title="Room58", description="""A steep cliff appears before you, falling
+room58 = Room(title="Room58", x=5, y=4, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room59 = Room(title="Room59", description="""The narrow passage bends here from west
+room59 = Room(title="Room59", x=5, y=3, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room60 = Room(title="Room60", description="""You've found the long-lost treasure
+room60 = Room(title="Room60", x=5, y=2, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room61 = Room(title="Room61",
-              description="North of you, the cave mount beckons")
+              x=6, y=11, description="North of you, the cave mount beckons")
 
-room62 = Room(title="Room62", description="""Dim light filters in from the south. Dusty
+room62 = Room(title="Room62", x=6, y=10, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room63 = Room(title="Room63", description="""A steep cliff appears before you, falling
+room63 = Room(title="Room63", x=6, y=9, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room64 = Room(title="Room64", description="""The narrow passage bends here from west
+room64 = Room(title="Room64", x=6, y=8, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room65 = Room(title="Room65", description="""You've found the long-lost treasure
+room65 = Room(title="Room65", x=6, y=7, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room66 = Room(title="Room66",
-              description="North of you, the cave mount beckons")
+              x=6, y=6, description="North of you, the cave mount beckons")
 
-room67 = Room(title="Room67", description="""Dim light filters in from the south. Dusty
+room67 = Room(title="Room67", x=6, y=5, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room68 = Room(title="Room68", description="""A steep cliff appears before you, falling
+room68 = Room(title="Room68", x=6, y=4, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room69 = Room(title="Room69", description="""The narrow passage bends here from west
+room69 = Room(title="Room69", x=6, y=3, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room70 = Room(title="Room70", description="""You've found the long-lost treasure
+room70 = Room(title="Room70", x=6, y=2, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room71 = Room(title="Room71",
-              description="North of you, the cave mount beckons")
+              x=7, y=11, description="North of you, the cave mount beckons")
 
-room72 = Room(title="Room72", description="""Dim light filters in from the south. Dusty
+room72 = Room(title="Room72", x=7, y=10, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room73 = Room(title="Room73", description="""A steep cliff appears before you, falling
+room73 = Room(title="Room73", x=7, y=9, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room74 = Room(title="Room74", description="""The narrow passage bends here from west
+room74 = Room(title="Room74", x=7, y=8, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room75 = Room(title="Room75", description="""You've found the long-lost treasure
+room75 = Room(title="Room75", x=7, y=7, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room76 = Room(title="Room76",
-              description="North of you, the cave mount beckons")
+              x=7, y=6, description="North of you, the cave mount beckons")
 
-room77 = Room(title="Room77", description="""Dim light filters in from the south. Dusty
+room77 = Room(title="Room77", x=7, y=5, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room78 = Room(title="Room78", description="""A steep cliff appears before you, falling
+room78 = Room(title="Room78", x=7, y=4, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room79 = Room(title="Room79", description="""The narrow passage bends here from west
+room79 = Room(title="Room79", x=7, y=3, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room80 = Room(title="Room80", description="""You've found the long-lost treasure
+room80 = Room(title="Room80", x=7, y=2, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room81 = Room(title="Room81",
-             description="North of you, the cave mount beckons")
+             x=8, y=11, description="North of you, the cave mount beckons")
 
-room82 = Room(title="Room82", description="""Dim light filters in from the south. Dusty
+room82 = Room(title="Room82", x=8, y=10, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room83 = Room(title="Room83", description="""A steep cliff appears before you, falling
+room83 = Room(title="Room83", x=8, y=9, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room84 = Room(title="Room84", description="""The narrow passage bends here from west
+room84 = Room(title="Room84", x=8, y=8, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room85 = Room(title="Room85", description="""You've found the long-lost treasure
+room85 = Room(title="Room85", x=8, y=7, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room86 = Room(title="Room86",
-             description="North of you, the cave mount beckons")
+             x=8, y=6, description="North of you, the cave mount beckons")
 
-room87 = Room(title="Room87", description="""Dim light filters in from the south. Dusty
+room87 = Room(title="Room87", x=8, y=5, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room88 = Room(title="Room88", description="""A steep cliff appears before you, falling
+room88 = Room(title="Room88", x=8, y=4, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room89 = Room(title="Room89", description="""The narrow passage bends here from west
+room89 = Room(title="Room89", x=8, y=3, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room90 = Room(title="Room90", description="""You've found the long-lost treasure
+room90 = Room(title="Room90", x=8, y=2, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room91 = Room(title="Room91",
-              description="North of you, the cave mount beckons")
+              x=9, y=11, description="North of you, the cave mount beckons")
 
-room92 = Room(title="Room92", description="""Dim light filters in from the south. Dusty
+room92 = Room(title="Room92", x=9, y=10, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room93 = Room(title="Room93", description="""A steep cliff appears before you, falling
+room93 = Room(title="Room93", x=9, y=9, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room94 = Room(title="Room94", description="""The narrow passage bends here from west
+room94 = Room(title="Room94", x=9, y=8, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room95 = Room(title="Room95", description="""You've found the long-lost treasure
+room95 = Room(title="Room95", x=9, y=7, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
 room96 = Room(title="Room96",
-              description="North of you, the cave mount beckons")
+              x=9, y=6, description="North of you, the cave mount beckons")
 
-room97 = Room(title="Room97", description="""Dim light filters in from the south. Dusty
+room97 = Room(title="Room97", x=9, y=5, description="""Dim light filters in from the south. Dusty
 passages run north and east.""")
 
-room98 = Room(title="Room98", description="""A steep cliff appears before you, falling
+room98 = Room(title="Room98", x=9, y=4, description="""A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
 the distance, but there is no way across the chasm.""")
 
-room99 = Room(title="Room99", description="""The narrow passage bends here from west
+room99 = Room(title="Room99", x=9, y=3, description="""The narrow passage bends here from west
 to north. The smell of gold permeates the air.""")
 
-room100 = Room(title="Room100", description="""You've found the long-lost treasure
+room100 = Room(title="Room100", x=9, y=2, description="""You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south.""")
 
